@@ -3,171 +3,189 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shubham Singh - Resume</title>
+<title>Shubham Singh - Android Developer</title>
 
 <style>
     body {
-        font-family: Arial, sans-serif;
-        margin: 40px;
-        line-height: 1.5;
-        color: #333;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f4f6f8;
+        margin: 0;
+        padding: 20px;
     }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
     h1 {
-        margin-bottom: 5px;
+        margin: 0;
+        font-size: 28px;
+        color: #222;
     }
-    h2 {
-        border-bottom: 2px solid #000;
-        padding-bottom: 5px;
-        margin-top: 30px;
+
+    .role {
+        color: #555;
+        margin-bottom: 10px;
     }
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
+
     .contact {
-        text-align: right;
         font-size: 14px;
+        color: #444;
+        margin-bottom: 20px;
     }
-    .section {
-        margin-top: 20px;
-    }
-    .entry {
-        margin-bottom: 15px;
-    }
-    .title {
-        font-weight: bold;
-    }
-    ul {
-        margin: 5px 0 10px 20px;
-    }
-    .skills, .languages {
-        margin-top: 10px;
-    }
-    a {
-        color: blue;
+
+    .contact a {
+        color: #0073e6;
         text-decoration: none;
     }
-</style>
 
+    h2 {
+        font-size: 18px;
+        margin-top: 25px;
+        color: #0073e6;
+        border-bottom: 2px solid #0073e6;
+        padding-bottom: 5px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #333;
+    }
+
+    ul {
+        margin: 8px 0 15px 18px;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .job {
+        margin-bottom: 15px;
+    }
+
+    .job-title {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .date {
+        color: #777;
+        font-size: 13px;
+    }
+
+    .skills span {
+        display: inline-block;
+        background: #eef4ff;
+        color: #0073e6;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 3px;
+        font-size: 12px;
+    }
+
+</style>
 </head>
 
 <body>
 
-<div class="header">
-    <div>
-        <h1>SHUBHAM SINGH</h1>
-        <p><strong>Senior Software Engineer – Android</strong></p>
-    </div>
-    <div class="contact">
-        <p>📞 9999667443</p>
-        <p>📍 Ghaziabad, India</p>
-        <p>✉️ <a href="mailto:8888shubham@gmail.com">8888shubham@gmail.com</a></p>
-        <p>🔗 <a href="https://www.linkedin.com/in/shubham-singh-9036b314b/">LinkedIn</a></p>
-    </div>
+<div class="container">
+
+<h1>Shubham Singh</h1>
+<div class="role">Senior Android Developer</div>
+
+<div class="contact">
+    Ghaziabad, India | 9999667443 |
+    <a href="mailto:8888shubham@gmail.com">8888shubham@gmail.com</a> |
+    <a href="https://www.linkedin.com/in/shubham-singh-9036b314b/">LinkedIn</a>
 </div>
 
-<div class="section">
-    <h2>Summary</h2>
-    <p>
-        Detail-oriented Mobile Developer with 7 years of experience in Android development.
-        Skilled in Kotlin and Java with expertise in scalable, user-friendly apps.
-        Experienced in Agile environments and cross-functional collaboration.
-    </p>
+<h2>Professional Summary</h2>
+<p>
+Senior Android Developer with 7+ years of experience building scalable mobile applications using Kotlin and Java. 
+Expertise in MVVM architecture, REST APIs, and Android Jetpack. Strong background in performance optimization, 
+debugging, and Agile development.
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skills">
+    <span>Kotlin</span>
+    <span>Java</span>
+    <span>MVVM</span>
+    <span>MVI</span>
+    <span>Android SDK</span>
+    <span>Jetpack</span>
+    <span>Retrofit</span>
+    <span>Room</span>
+    <span>Coroutines</span>
+    <span>LiveData</span>
+    <span>Material UI</span>
+    <span>Git</span>
+    <span>Firebase</span>
 </div>
 
-<div class="section">
-    <h2>Skills</h2>
-    <p>
-        Java, Kotlin, Design Patterns, MVVM/MVI, Android, UI/UX Design, Team Leadership,
-        Project Management, Unit Testing, Debugging, Performance Optimization,
-        Jetpack (ViewModel, LiveData, Room), Git, Figma, Play Store Deployment.
-    </p>
+<h2>Experience</h2>
+
+<div class="job">
+    <div class="job-title">Senior Software Engineer – NetProphets Cyberworks</div>
+    <div class="date">June 2022 – Present</div>
+    <ul>
+        <li>Developed Android apps using Kotlin and MVVM architecture</li>
+        <li>Improved performance and optimized API handling</li>
+        <li>Integrated REST APIs, Google Maps, and push notifications</li>
+        <li>Collaborated with cross-functional Agile teams</li>
+    </ul>
 </div>
 
-<div class="section">
-    <h2>Projects</h2>
-
-    <div class="entry">
-        <div class="title">Fit India</div>
-        <a href="https://play.google.com/store/apps/details?id=com.sai.fitIndia">Play Store Link</a>
-        <p>Fitness tracking app with goals, water intake, calorie tracking, and sleep monitoring.</p>
-    </div>
-
-    <div class="entry">
-        <div class="title">NextGen mParivahan</div>
-        <a href="https://play.google.com/store/apps/details?id=com.nic.mparivahan">Play Store Link</a>
-        <p>Government app for RTO services, vehicle search, and transport utilities.</p>
-    </div>
-
-    <div class="entry">
-        <div class="title">NSRS (National Sports Repository System)</div>
-        <a href="https://play.google.com/store/apps/details?id=com.sai.NsrsKheloIndia">Play Store Link</a>
-        <p>Platform for athlete performance tracking and sports science data.</p>
-    </div>
-
-    <div class="entry">
-        <div class="title">Pasco Digital</div>
-        <a href="https://play.google.com/store/apps/details?id=com.pasco">Play Store Link</a>
-        <p>Document management system for storing and tracking digital records.</p>
-    </div>
-
+<div class="job">
+    <div class="job-title">Mobile Developer – RSJ Inspection</div>
+    <div class="date">Apr 2021 – Jun 2022</div>
+    <ul>
+        <li>Enhanced app features and implemented security (certificate pinning)</li>
+        <li>Improved UI/UX and added new modules</li>
+        <li>Used WorkManager and offline storage</li>
+    </ul>
 </div>
 
-<div class="section">
-    <h2>Experience</h2>
-
-    <div class="entry">
-        <div class="title">Senior Software Engineer – NetProphets Cyberworks (06/2022 – Present)</div>
-        <ul>
-            <li>Code reviews and quality improvements</li>
-            <li>Performance optimization and debugging</li>
-            <li>Collaboration with cross-functional teams</li>
-        </ul>
-    </div>
-
-    <div class="entry">
-        <div class="title">Mobile Developer – RSJ Inspection (2021–2022)</div>
-        <ul>
-            <li>Feature development and app optimization</li>
-            <li>Security implementation (Certificate Pinning, Encryption)</li>
-            <li>UI/UX improvements</li>
-        </ul>
-    </div>
-
-    <div class="entry">
-        <div class="title">Android Developer – SEMReseller (2019–2021)</div>
-        <ul>
-            <li>App enhancement and UI improvements</li>
-        </ul>
-    </div>
-
-    <div class="entry">
-        <div class="title">Android Developer – Edays IT Solution (2017–2019)</div>
-        <ul>
-            <li>UI development and API integrations</li>
-        </ul>
-    </div>
-
+<div class="job">
+    <div class="job-title">Android Developer – SEMReseller</div>
+    <div class="date">Dec 2019 – Apr 2021</div>
+    <ul>
+        <li>Developed Android apps and integrated payment gateways</li>
+        <li>Optimized performance and UI</li>
+    </ul>
 </div>
 
-<div class="section">
-    <h2>Certificates</h2>
-    <p>
-        Android Developer Course – 
-        <a href="https://www.udemy.com/certificate/UC-e707f12a-298d-442c-8e4c-c71a7265ac3c/">View Certificate</a>
-    </p>
-</div>
+<h2>Projects</h2>
 
-<div class="section">
-    <h2>Education</h2>
-    <p><strong>MCA</strong> – Swami Vivekanand Subharti University (2017–2020)</p>
-    <p><strong>BCA</strong> – Mewar Institute, Ghaziabad (2014–2017)</p>
-    <p><strong>High School</strong> – RSBV Delhi (2010–2014)</p>
-</div>
+<p><strong>Fit India App</strong> – 
+<a href="https://play.google.com/store/apps/details?id=com.sai.fitIndia">Play Store</a></p>
 
-<div class="section">
-    <h2>Languages</h2>
-    <p>English – Professional | Hindi – Native</p>
+<p><strong>NextGen mParivahan</strong> – 
+<a href="https://play.google.com/store/apps/details?id=com.nic.mparivahan">Play Store</a></p>
+
+<p><strong>NSRS – National Sports Repository</strong> – 
+<a href="https://play.google.com/store/apps/details?id=com.sai.NsrsKheloIndia">Play Store</a></p>
+
+<h2>Education</h2>
+<p><strong>MCA</strong> – Subharti University (2017–2020)</p>
+<p><strong>BCA</strong> – Mewar Institute (2014–2017)</p>
+
+<h2>Certifications</h2>
+<p>
+Android Developer Course – 
+<a href="https://www.udemy.com/certificate/UC-e707f12a-298d-442c-8e4c-c71a7265ac3c/">View Certificate</a>
+</p>
+
+<h2>Languages</h2>
+<p>English (Professional) | Hindi (Native)</p>
+
 </div>
 
 </body>
